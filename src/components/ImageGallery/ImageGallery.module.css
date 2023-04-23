@@ -1,0 +1,13 @@
+.gallery {
+   grid-gap: 15px;
+   display: grid;
+   justify-items: center;
+   max-width: calc(100vw - 80px);
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+   margin-bottom: 30px;
+   padding: 0;
+   list-style: none;
+}

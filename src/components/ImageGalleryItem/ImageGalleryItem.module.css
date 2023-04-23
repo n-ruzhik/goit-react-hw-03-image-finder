@@ -1,0 +1,13 @@
+.ImageGalleryItem {
+    max-width: 350px;
+    height: auto;
+    overflow: hidden;
+        box-shadow: 0 6px 12px -2px rgba(50, 50, 93, .25), 0 3px 7px -3px rgba(0, 0, 0, .3);
+}
+
+.ImageGalleryItem__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
