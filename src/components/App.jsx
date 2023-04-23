@@ -69,12 +69,6 @@ export class App extends Component  {
       this.onRenderImages(newQuery, newPage);
     }
 
-    // if (!this.state.showModal && !prevState.showModal) {
-    //   window.scrollTo({
-    //     top: document.documentElement.scrollHeight,
-    //     behavior: "smooth",
-    //   });
-    // }
   }
  
   openModal = (url) => {
